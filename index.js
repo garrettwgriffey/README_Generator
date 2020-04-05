@@ -1,10 +1,11 @@
-
+require(`dotenv`).config();
+const axios = require("axios");
 const inquirer = require("inquirer");
-const api = require("./utils/api");
+// const api = require("./utils/api");
 const fs = require("fs");
 const badge = require("gh-badges");
 
-function inquireQuestions () {
+function inquireQuestions (){
 inquirer
 .prompt([{
     type: "input",
@@ -72,11 +73,32 @@ inquirer
   .then(answers => {
     console.log(answers)
     let username = answers.username;
-apiCall(username);
+
   });
 
 }
 
-inquireQuestions();
+// module.exports = inquireQuestions;
 
-module.exports = inquireQuestions;
+// api.js
+
+function apiCall (username, response) {
+console.log(username);
+console.log(response);
+    const url = `https://api.github.com/users/` + username;
+
+    axios
+    .get(url,{header:{'Authorization':`token${process.env.GH_TOKEN}`}})
+    .then(function(res){
+      console.log(res);
+    })
+    .catch(error => console.log(error))
+    console.log(username)
+  }
+
+
+// apiCall();
+
+// module.exports = apiCall;
+
+

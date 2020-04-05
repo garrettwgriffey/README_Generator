@@ -1,5 +1,4 @@
 const axios = require("axios");
-index = require("./index.js");
 require(`dotenv`).config();
 
 function apiCall (username, response) {
@@ -17,7 +16,7 @@ console.log(response);
   }
 
 
-// apiCall("");
+apiCall();
 
 module.exports = apiCall;
 
