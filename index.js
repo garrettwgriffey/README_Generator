@@ -71,29 +71,24 @@ inquirer
   }
 ])
   .then(answers => {
-    console.log(answers)
     let username = answers.username;
+    apiCall(username, answers);
 
   });
 
 }
+inquireQuestions();
 
-// module.exports = inquireQuestions;
 
-// api.js
-
-function apiCall (username, response) {
-console.log(username);
-console.log(response);
+function apiCall (username, answers) {
     const url = `https://api.github.com/users/` + username;
 
     axios
-    .get(url,{header:{'Authorization':`token${process.env.GH_TOKEN}`}})
+    .get(url, {header:{'Authorization': `token ${process.env.GH_TOKEN}`}})
     .then(function(res){
       console.log(res);
     })
     .catch(error => console.log(error))
-    console.log(username)
   }
 
 
