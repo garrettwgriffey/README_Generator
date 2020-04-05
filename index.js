@@ -71,9 +71,12 @@ inquirer
 ])
   .then(answers => {
     console.log(answers)
-api.getUser(answers.github_username)
+    let username = answers.username;
+apiCall(username);
   });
 
 }
 
 inquireQuestions();
+
+module.exports = inquireQuestions;

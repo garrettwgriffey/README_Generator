@@ -1,18 +1,24 @@
 const axios = require("axios");
+index = require("./index.js");
 require(`dotenv`).config();
-const api = {
-  getUser(username) {
-    return axios
-    const url = `https://api.github.com/users/${username}/repos?per_page=100`
-    .get()
-    .then(response => console.log(response))
+
+function apiCall (username, response) {
+console.log(username);
+console.log(response);
+    const url = `https://api.github.com/users/` + username;
+
+    axios
+    .get(url,{header:{'Authurization':`token${process.env.GH_TOKEN}`}})
+    .then(function(res){
+      console.log(res);
+    })
     .catch(error => console.log(error))
     console.log(username)
   }
-};
 
-api.getUser("")
 
-module.exports = api;
+// apiCall("");
+
+module.exports = apiCall;
 
 
