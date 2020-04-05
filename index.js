@@ -1,6 +1,8 @@
 
 const inquirer = require("inquirer");
-const api = require("./utils/api")
+const api = require("./utils/api");
+const fs = require("fs");
+const badge = require("gh-badges");
 
 function inquireQuestions () {
 inquirer
@@ -73,3 +75,5 @@ api.getUser(answers.github_username)
   });
 
 }
+
+inquireQuestions();
