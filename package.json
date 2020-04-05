@@ -1,5 +1,5 @@
 {
-  "name": "readme_generator",
+  "name": "clear",
   "version": "1.0.0",
   "description": "Generates a README.md file with content",
   "main": "index.js",
