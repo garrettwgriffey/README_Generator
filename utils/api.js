@@ -1,5 +1,5 @@
 const axios = require("axios");
-const generateMD = require("./generateMarkdown")
+const generateMD = require("./generateMD")
 function apiCall (username, response) {
 console.log(username);
 console.log(response);

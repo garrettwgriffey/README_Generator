@@ -6,7 +6,7 @@
     * Installation
     * Technology Stack
     * Usage
-  ###  **Contributors**
+  ##  **Contributors**
   
   ##  **Description**
   
