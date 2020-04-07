@@ -1,7 +1,7 @@
 require(`dotenv`).config();
 const axios = require("axios");
 const inquirer = require("inquirer");
-// const api = require("./utils/api");
+const api = require("./utils/api");
 const fs = require("fs");
 const badge = require("gh-badges");
 
@@ -94,29 +94,29 @@ function inquireQuestions() {
     ])
     .then(answers => {
       let username = answers.username;
-      apiCall(username, answers);
+      api(username, answers);
     });
 }
 
 inquireQuestions();
 
 // Github API
-function apiCall(username, answers) {
-  const url = `https://api.github.com/users/` + username;
+// function apiCall(username, answers) {
+//   const url = `https://api.github.com/users/` + username;
 
-  axios
-    .get(url, { header: { Authorization: `token ${process.env.GH_TOKEN}` } })
-    .then(function(res) {
-      console.log(res);
-    })
-    .catch(error => console.log(error));
-}
+//   axios
+//     .get(url, { header: { Authorization: `token ${process.env.GH_TOKEN}` } })
+//     .then(function(res) {
+//       console.log(res);
+//     })
+//     .catch(error => console.log(error));
+// }
 
 // apiCall();
 
 // module.exports = apiCall;
 
-// Markdown file
+// Markup start
 function generateMD(answers) {
   var userInfo = ` 
   # **Project** ${answers.project}
