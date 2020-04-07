@@ -1,33 +1,35 @@
- 
+  # <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
+  <br />
   # **Project** 
+  ${answers.project}
   ## Live Link
   ##  **Table of Contents**
     * Description
     * Installation
     * Technology Stack
     * Usage
-  ##  **Contributors**
+  ## **Contributors**
   
-  ##  **Description**
+  ## **Description**
   
   ## **Installation**
   
   ## **Technology Stack**
   
-  ##  **Usage**
+  ## **Usage**
   
   ## **Contact**
-*
+
 <img align="left" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
 
 
 <br/>
 ## --------------------------------------------------------------------
-* ####  Name: garrett
+* ####  Name: Garrett Griffey
 * ####   GitHub "https://github.com/users/garrettwgriffey"
 * ####  
 * #### Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
-* #### LinkedIn: "https://www.linkedin.com/in/undefined
+* #### LinkedIn: "https://www.linkedin.com/in/garrettwgriffey
 ## -------------------------------------------------------------------
 <br/>
 
