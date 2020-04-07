@@ -1,5 +1,6 @@
+  `
   # <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
-  <img align="left" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
+  <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
   <br />
   # **Project** 
   <br />
@@ -8,10 +9,15 @@
   ## Live Link
   <br />
   ##  **Table of Contents**
+  <br />
     * Description
+    <br />
     * Installation
+    <br />
     * Technology Stack
+    <br />
     * Usage
+    <br />
   ## **Contributors**
   
   ## **Description**
@@ -38,5 +44,5 @@
 ${answers.license}
 ## Tests;
 
-
+`
 
