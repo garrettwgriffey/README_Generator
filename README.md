@@ -1,8 +1,12 @@
   # <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
+  <img align="left" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
   <br />
   # **Project** 
+  <br />
   ${answers.project}
+  <br />
   ## Live Link
+  <br />
   ##  **Table of Contents**
     * Description
     * Installation
@@ -20,9 +24,6 @@
   
   ## **Contact**
 
-<img align="left" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
-
-
 <br/>
 ## --------------------------------------------------------------------
 * ####  Name: Garrett Griffey
@@ -34,8 +35,8 @@
 <br/>
 
 ##### **License**
-MIT
+${answers.license}
 ## Tests;
 
-// Badge
+
 
