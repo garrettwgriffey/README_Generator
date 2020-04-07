@@ -1,6 +1,7 @@
 const fs = require("fs");
 function generateMD(answers) {
   var userInfo = ` 
+  <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
   # **Project** ${answers.project}
   ## Live Link
   ##  **Table of Contents**
@@ -20,7 +21,8 @@ function generateMD(answers) {
   ${answers.usage}
   ## **Contact**
 *
-<img align="left" width="100" height="100" src="${answers.avatar_url}">
+<img align="right" width="100" height="100" src="${res.data.avatar_url}">
+
 
 <br/>
 ## --------------------------------------------------------------------
