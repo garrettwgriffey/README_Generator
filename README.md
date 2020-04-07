@@ -1,4 +1,3 @@
-  `
   # <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
   <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
   <br />
@@ -42,7 +41,6 @@
 
 ##### **License**
 ${answers.license}
-## Tests;
+## Tests
 
-`
 

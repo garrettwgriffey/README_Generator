@@ -3,45 +3,86 @@ function generateMD(answers) {
   var userInfo = ` 
   <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
   <img align="right" width="100" height="100" src="${res.data.avatar_url}">;
-  <br/>
-  # **Project** 
-  ${answers.project}
-  #
-  <br />
-  ## Live Link
-  * ~~_Insert Live Link Once Generated_~~
-  <br />
-  ##  **Table of Contents**
-    * Description
-    * Installation
-    * Technology Stack
-    * Usage
-  ###  **Contributors**
-  ${answers.contributors}
-  ##  **Description**
-  ${answers.description}
-  ## **Installation**
-  ${answers.installation}
-  ## **Technology Stack**
-  ${answers.technology}
-  ##  **Usage**
-  ${answers.usage}
-  ## **Contact**
-*
+//   <br/>
+//   # **Project** 
+//   ${answers.project}
+//   #
+//   <br />
+//   ## Live Link
+//   * ~~_Insert Live Link Once Generated_~~
+//   <br />
+//   ##  **Table of Contents**
+//     * Description
+//     * Installation
+//     * Technology Stack
+//     * Usage
+//   ###  **Contributors**
+//   ${answers.contributors}
+//   ##  **Description**
+//   ${answers.description}
+//   ## **Installation**
+//   ${answers.installation}
+//   ## **Technology Stack**
+//   ${answers.technology}
+//   ##  **Usage**
+//   ${answers.usage}
+//   ## **Contact**
+// *
+
+// <br />
+// ## --------------------------------------------------------------------
+// * ####  Name: ${answers.name}
+// * ####   GitHub "https://github.com/users/${answers.username}"
+// * ####  ${answers.portfolio}
+// * #### Email: [${answers.email}](${answers.email})
+// * #### LinkedIn: "https://www.linkedin.com/in/${answers.linkedIn}
+// ## -------------------------------------------------------------------
+// <br />
+
+// ##### **License**
+// ${answers.license}
+// ## Tests;
+
+##
+<br />
+# **Project** 
+_${answers.project}_
+#
+<br />
+## Live Link 
+* ~~_Insert Live Link Once Generated_~~
+##  **Table of Contents**
+* Description
+* Installation
+* Technology Stack
+* Usage
+##  **Description**
+${answers.description}
+## **Installation**
+${answers.installation}
+## **Technology Stack**
+${answers.technology}
+##  **Usage**
+${answers.usage}
+###  **Contributors**
+${answers.contributors}
+## **Contact**
+####  * Name: ${answers.firstLast}
+####  * GitHub "https://github.com/${answers.username}" 
+####  * Portfolio 
+~~${response.portfolio}~~
+#### * Email: [${response.data.email}](${response.data.email})
+#### * LinkedIn: https://www.linkedin.com/in/${answers.linkedIn}
+#
+## 
 
 <br />
-## --------------------------------------------------------------------
-* ####  Name: ${answers.name}
-* ####   GitHub "https://github.com/users/${answers.username}"
-* ####  ${answers.portfolio}
-* #### Email: [${answers.email}](${answers.email})
-* #### LinkedIn: "https://www.linkedin.com/in/${answers.linkedIn}
-## -------------------------------------------------------------------
-<br />
+#
+##### **License** 
+* ${answers.license}
+## Tests
+###### To Run Tests, Run the Following Command: ${answers.tests}
 
-##### **License**
-${answers.license}
-## Tests;
 
 `;
 // End markup
