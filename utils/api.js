@@ -1,22 +1,21 @@
 const axios = require("axios");
-require(`dotenv`).config();
-
+const generateMD = require("./generateMarkdown")
 function apiCall (username, response) {
 console.log(username);
 console.log(response);
-    // const url = `https://api.github.com/users/` + username;
 const url = `https://api.github.com/users/${username}/events/public`
     axios
     .get(url)
     .then(function(res){
-      console.log(res.data[0].payload.commits[0].author.email)
+     response.email = res.data[0].payload.commits[0].author.email;
+     response.avatar_url = res.data[0].actor.avatar_url;
+     console.log(response);
+     generateMD (response);
     })
     .catch(error => console.log(error))
     console.log(username)
   }
 
-
-// apiCall();
 
 module.exports = apiCall;
 
