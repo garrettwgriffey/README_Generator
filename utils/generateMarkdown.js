@@ -43,8 +43,6 @@ function generateMD(answers) {
 ${answers.license}
 ## Tests;
 
-// Badge
-
 `;
 // End markup
 
