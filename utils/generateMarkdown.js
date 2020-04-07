@@ -2,8 +2,15 @@ const fs = require("fs");
 function generateMD(answers) {
   var userInfo = ` 
   <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
-  # **Project** ${answers.project}
+  <img align="right" width="100" height="100" src="${res.data.avatar_url}">;
+  <br/>
+  # **Project** 
+  ${answers.project}
+  #
+  <br />
   ## Live Link
+  * ~~_Insert Live Link Once Generated_~~
+  <br />
   ##  **Table of Contents**
     * Description
     * Installation
@@ -21,10 +28,8 @@ function generateMD(answers) {
   ${answers.usage}
   ## **Contact**
 *
-<img align="right" width="100" height="100" src="${res.data.avatar_url}">
 
-
-<br/>
+<br />
 ## --------------------------------------------------------------------
 * ####  Name: ${answers.name}
 * ####   GitHub "https://github.com/users/${answers.username}"
@@ -32,7 +37,7 @@ function generateMD(answers) {
 * #### Email: [${answers.email}](${answers.email})
 * #### LinkedIn: "https://www.linkedin.com/in/${answers.linkedIn}
 ## -------------------------------------------------------------------
-<br/>
+<br />
 
 ##### **License**
 ${answers.license}
