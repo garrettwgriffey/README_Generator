@@ -89,9 +89,9 @@ function inquireQuestions() {
         name: "tests"
       }
     ])
-    .then(answers => {
-      let username = answers.username;
-      api(username, answers);
+    .then(response => {
+      let username = response.username;
+      api(username, response);
     });
 }
 

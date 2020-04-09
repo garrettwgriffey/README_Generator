@@ -1,14 +1,14 @@
 const fs = require("fs");
-function generateMD(answers) {
+function generateMD(response) {
   var userInfo = ` 
-  <img align="left" src= "https://img.shields.io/badge/License-${answers.license}-green">
-  <img align="right" width="100" height="100" src="${res.data.avatar_url}">;
+  <img align="left" src= "https://img.shields.io/badge/License-${response.license}-green">
+  <img align="right" width="100" height="100" src="${response.avatar_url}">;
 
 
 ##
 <br />
 # **Project** 
-_${answers.project}_
+_${response.project}_
 #
 <br />
 ## Live Link 
@@ -19,33 +19,34 @@ _${answers.project}_
 * Technology Stack
 * Usage
 ##  **Description**
-${answers.description}
+${response.description}
 ## **Installation**
-${answers.installation}
+${response.installation}
 ## **Technology Stack**
-${answers.technology}
+${response.technology}
 ##  **Usage**
-${answers.usage}
+${response.usage}
 ###  **Contributors**
-${answers.contributors}
+${response.contributors}
 ## **Contact**
-####  * Name: ${answers.firstLast}
-####  * GitHub "https://github.com/${answers.username}" 
+####  * Name: ${response.firstLast}
+####  * GitHub "https://github.com/${response.username}" 
 ####  * Portfolio 
 ~~${response.portfolio}~~
-#### * Email: [${response.data.email}](${response.data.email})
-#### * LinkedIn: https://www.linkedin.com/in/${answers.linkedIn}
+#### * Email: [${response.email}](${response.email})
+#### * LinkedIn: https://www.linkedin.com/in/${response.linkedIn}
 #
 ## 
 
 <br />
 #
 ##### **License** 
-* ${answers.license}
+* ${response.license}
 ## Tests
-###### To Run Tests, Run the Following Command: ${answers.tests}
+###### To Run Tests, Run the Following Command: ${response.tests}
 
-`;
+`
+// end function
 
 fs.writeFile("./generate.md", userInfo, function(err) {
     if (err) {
