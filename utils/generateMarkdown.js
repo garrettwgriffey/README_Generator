@@ -1,23 +1,24 @@
 const fs = require("fs");
 function generateMD(response) {
-  var userInfo = ` 
+  var userInfo = `
+
   <img align="left" src= "https://img.shields.io/badge/License-${response.license}-green">
+
   <img align="right" width="100" height="100" src="${response.avatar_url}">;
 
-
-##
-<br />
+  
 # **Project** 
-_${response.project}_
-#
-<br />
+${response.project}
+
 ## Live Link 
 * ~~_Insert Live Link Once Generated_~~
+
 ##  **Table of Contents**
 * Description
 * Installation
 * Technology Stack
 * Usage
+
 ##  **Description**
 ${response.description}
 ## **Installation**
