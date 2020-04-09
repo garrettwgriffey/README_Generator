@@ -20,7 +20,7 @@ README_Generator
 ## **Description**
 User enters information and a README markdown file is returned
 ## **Installation**
-inquire, fs, axios, gh-badges
+axios, fs, gh-badges, inquirer
 ## **Technology Stack**
 Node.Js, JavaScript, GitHub, APIs, Command- Line
 ## **Usage**
@@ -31,7 +31,7 @@ Garrett Griffey
 #### * Name: undefined
 #### * GitHub "https://github.com/garrettwgriffey" 
 #### * Portfolio 
-~~garrettwgriffey.github.io~~
+~~garrettwgriffey.github.io/~~
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
 #### * LinkedIn: https://www.linkedin.com/in/garrettwgriffey
 #
