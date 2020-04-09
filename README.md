@@ -42,7 +42,7 @@ The new markdown file will present a badge for the selected license, email addre
 ## **Contributors**
 Garrett Wells Griffey
 ## **Contact**
-#### * Name: undefined
+#### * Name: Garrett Wells Griffey
 #### * GitHub: "https://github.com/garrettwgriffey" 
 #### * Portfolio: "https://github.com/garrettwgriffey.github.io/
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)

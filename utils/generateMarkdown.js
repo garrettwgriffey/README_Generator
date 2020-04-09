@@ -30,7 +30,7 @@ ${response.usage}
 ## **Contributors**
 ${response.contributors}
 ## **Contact**
-#### * Name: ${response.firstLast}
+#### * Name: ${response.name}
 #### * GitHub: "https://github.com/${response.username}" 
 #### * Portfolio: "https://github.com/${response.portfolio}
 #### * Email: [${response.email}](${response.email})
