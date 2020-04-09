@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const api = require("./utils/api");
+const api = require("./api");
 const badge = require("gh-badges");
 
 function inquireQuestions() {

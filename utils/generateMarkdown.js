@@ -45,11 +45,9 @@ ${answers.contributors}
 ## Tests
 ###### To Run Tests, Run the Following Command: ${answers.tests}
 
-
 `;
-// End markup
 
-fs.writeFile("./README.md", userInfo, function(err) {
+fs.writeFile("./generate.md", userInfo, function(err) {
     if (err) {
     return console.log(err);
     }
