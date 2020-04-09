@@ -19,23 +19,23 @@ ${response.project}
 * Technology Stack
 * Usage
 
-##  **Description**
+## **Description**
 ${response.description}
 ## **Installation**
 ${response.installation}
 ## **Technology Stack**
 ${response.technology}
-##  **Usage**
+## **Usage**
 ${response.usage}
-###  **Contributors**
+## **Contributors**
 ${response.contributors}
 ## **Contact**
-####  * Name: ${response.firstLast}
-####  * GitHub "https://github.com/${response.username}" 
-####  * Portfolio 
+#### * Name: ${response.firstLast}
+#### * GitHub "https://github.com/${response.username}" 
+#### * Portfolio 
 ~~${response.portfolio}~~
 #### * Email: [${response.email}](${response.email})
-#### * LinkedIn: https://www.linkedin.com/in/${response.linkedIn}
+#### * LinkedIn: https://www.linkedin.com/in/${response.linkedin}
 #
 ## 
 
@@ -49,7 +49,7 @@ ${response.contributors}
 `
 // end function
 
-fs.writeFile("./generate.md", userInfo, function(err) {
+fs.writeFile("./output/README.md", userInfo, function(err) {
     if (err) {
     return console.log(err);
     }

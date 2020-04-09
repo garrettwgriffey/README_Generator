@@ -24,16 +24,16 @@
 ## **Technology Stack**
 
 ##  **Usage**
-gfnfgb
+
 ###  **Contributors**
-fdghntnf
+
 ## **Contact**
 ####  * Name: undefined
 ####  * GitHub "https://github.com/garrettwgriffey" 
 ####  * Portfolio 
-~~dyhytdj~~
+~~~~
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
-#### * LinkedIn: https://www.linkedin.com/in/undefined
+#### * LinkedIn: https://www.linkedin.com/in/garrettwgriffey
 #
 ## 
 
@@ -42,5 +42,5 @@ fdghntnf
 ##### **License** 
 * MIT
 ## Tests
-###### To Run Tests, Run the Following Command: djhy
+###### To Run Tests, Run the Following Command: 
 
