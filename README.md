@@ -9,7 +9,7 @@
 README_Generator
 
 ## Live Link 
-* ~~_Insert Live Link Once Generated_~~
+* Insert Live Link Once Generated
 
 ##  **Table of Contents**
 * Description
@@ -18,27 +18,27 @@ README_Generator
 * Usage
 
 ## **Description**
-User enters information and a README markdown file is returned
+User enters information about their project and a README markdown file is created
 ## **Installation**
-axios, fs, gh-badges, inquirer
+axios, fs, gh-badge, inquirer
 ## **Technology Stack**
 Node.Js, JavaScript, GitHub, APIs, Command- Line
 ## **Usage**
 After forking this repository in your GitHub, the user will install all dependencies within the given JSON Package. 
 ## **Contributors**
-Garrett Griffey
+Garrett Wells Griffey
 ## **Contact**
 #### * Name: undefined
 #### * GitHub "https://github.com/garrettwgriffey" 
 #### * Portfolio 
-~~garrettwgriffey.github.io/~~
+garrettwgriffey.github.io/
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
 #### * LinkedIn: https://www.linkedin.com/in/garrettwgriffey
-#
+
 ## 
 
 <br />
-#
+
 ##### **License** 
 * MIT
 ## Tests

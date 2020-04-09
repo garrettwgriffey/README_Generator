@@ -11,7 +11,7 @@ function generateMD(response) {
 ${response.project}
 
 ## Live Link 
-* ~~_Insert Live Link Once Generated_~~
+* Insert Live Link Once Generated
 
 ##  **Table of Contents**
 * Description
@@ -33,14 +33,14 @@ ${response.contributors}
 #### * Name: ${response.firstLast}
 #### * GitHub "https://github.com/${response.username}" 
 #### * Portfolio 
-~~${response.portfolio}~~
+${response.portfolio}
 #### * Email: [${response.email}](${response.email})
 #### * LinkedIn: https://www.linkedin.com/in/${response.linkedin}
-#
+
 ## 
 
 <br />
-#
+
 ##### **License** 
 * ${response.license}
 ## Tests
@@ -49,7 +49,7 @@ ${response.contributors}
 `
 // end function
 
-fs.writeFile("./output/README.md", userInfo, function(err) {
+fs.writeFile("./output/gen-README.md", userInfo, function(err) {
     if (err) {
     return console.log(err);
     }
