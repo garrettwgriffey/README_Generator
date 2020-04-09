@@ -24,7 +24,8 @@ axios, fs, gh-badge, inquirer
 ## **Technology Stack**
 Node.Js, JavaScript, GitHub, APIs, Command- Line
 ## **Usage**
-After forking this repository in your GitHub, the user will install all dependencies within the given JSON Package. 
+After forking this repository in your GitHub, the user will install all dependencies within the given JSON Package.
+<img src = "assets\readMeGen.gif"> 
 ## **Contributors**
 Garrett Wells Griffey
 ## **Contact**
