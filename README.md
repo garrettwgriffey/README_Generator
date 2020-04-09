@@ -2,7 +2,7 @@
 
   <img align="left" src= "https://img.shields.io/badge/License-MIT-green">
 
-  <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">;
+  <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
 
   
 # **Project** 
@@ -34,6 +34,8 @@ After the file is pushed, generateMarkdown.js will generate a README.MD file.
 The new markdown file will present a badge for the selected license, email address, and profile picture.
 
 <img src = "assets\readMeGen.gif"> 
+
+
 ## **Contributors**
 Garrett Wells Griffey
 ## **Contact**
