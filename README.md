@@ -43,9 +43,8 @@ The new markdown file will present a badge for the selected license, email addre
 Garrett Wells Griffey
 ## **Contact**
 #### * Name: undefined
-#### * GitHub "https://github.com/garrettwgriffey" 
-#### * Portfolio 
-garrettwgriffey.github.io/
+#### * GitHub: "https://github.com/garrettwgriffey" 
+#### * Portfolio: "https://github.com/garrettwgriffey.github.io/
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
 #### * LinkedIn: https://www.linkedin.com/in/garrettwgriffey
 

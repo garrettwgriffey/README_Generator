@@ -31,9 +31,8 @@ ${response.usage}
 ${response.contributors}
 ## **Contact**
 #### * Name: ${response.firstLast}
-#### * GitHub "https://github.com/${response.username}" 
-#### * Portfolio 
-${response.portfolio}
+#### * GitHub: "https://github.com/${response.username}" 
+#### * Portfolio: "https://github.com/${response.portfolio}
 #### * Email: [${response.email}](${response.email})
 #### * LinkedIn: https://www.linkedin.com/in/${response.linkedin}
 
