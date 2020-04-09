@@ -48,10 +48,7 @@ garrettwgriffey.github.io/
 
 ## 
 
-<br />
 
-##### **License** 
-* MIT
 ## Tests
-###### To Run Tests, Run the Following Command: N/A
+###### To Run Tests, Run the Following Command: npm run test
 
