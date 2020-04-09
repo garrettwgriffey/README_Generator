@@ -19,6 +19,9 @@ README_Generator
 
 ## **Description**
 User enters information about their project and a README markdown file is created
+
+<img src = assets\readmeSS.png>
+
 ## **Installation**
 axios, fs, gh-badge, inquirer
 ## **Technology Stack**
