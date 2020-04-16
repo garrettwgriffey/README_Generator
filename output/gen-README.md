@@ -22,7 +22,7 @@ Generates a list of employees with status and contact information
 ## **Installation**
 inquirer, jest
 ## **Technology Stack**
-Node.Js, JavaScript, GitHub, Bootstrap, Command- Line
+Node.Js, JavaScript, GitHub, Bootstrap, Command-Line
 ## **Usage**
 
 ## **Contributors**
