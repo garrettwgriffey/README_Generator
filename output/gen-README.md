@@ -2,11 +2,11 @@
 
   <img align="left" src= "https://img.shields.io/badge/License-MIT-green">
 
-  <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">;
+  <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
 
   
 # **Project** 
-test
+Employee Template Engine
 
 ## Live Link 
 * Insert Live Link Once Generated
@@ -18,22 +18,21 @@ test
 * Usage
 
 ## **Description**
-test
+Generates a list of employees with status and contact information
 ## **Installation**
-test
+inquirer, jest
 ## **Technology Stack**
-
+Node.Js, JavaScript, GitHub, Bootstrap, Command- Line
 ## **Usage**
-test
+
 ## **Contributors**
-test
+Garrett Wells Griffey
 ## **Contact**
-#### * Name: undefined
-#### * GitHub "https://github.com/garrettwgriffey" 
-#### * Portfolio 
-test
+#### * Name: Garrett Wells Griffey
+#### * GitHub: "https://github.com/garrettwgriffey" 
+#### * Portfolio: "https://github.com/github.com/garrettwgriffey.github.io
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
-#### * LinkedIn: https://www.linkedin.com/in/test
+#### * LinkedIn: https://www.linkedin.com/in/garrettwgriffey
 
 ## 
 
@@ -42,5 +41,5 @@ test
 ##### **License** 
 * MIT
 ## Tests
-###### To Run Tests, Run the Following Command: test
+###### To Run Tests, Run the Following Command: jest
 
