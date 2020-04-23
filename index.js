@@ -87,6 +87,11 @@ function inquireQuestions() {
         type: "input",
         message: "Tests?",
         name: "tests"
+      },
+      {
+        type: "input",
+        message: "Insert live link.",
+        name: "link"
       }
     ])
     .then(answers => {

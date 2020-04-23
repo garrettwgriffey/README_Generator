@@ -11,7 +11,7 @@ function generateMD(response) {
 ${response.project}
 
 ## Live Link 
-* Insert Live Link Once Generated
+${response.link}
 
 ##  **Table of Contents**
 * Description
