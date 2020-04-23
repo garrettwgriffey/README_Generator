@@ -2,11 +2,11 @@
 
   <img align="left" src= "https://img.shields.io/badge/License-MIT-green">
 
-  <img align="right" width="300" height="300" src="https://avatars.githubusercontent.com/u/59263270?">
+  <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/59263270?">
 
   
 # **Project** 
-Employee Template Engine
+Note Taker App
 
 ## Live Link 
 * Insert Live Link Once Generated
@@ -18,19 +18,19 @@ Employee Template Engine
 * Usage
 
 ## **Description**
-Generates a list of employees with status and contact information
+This app creates a list of activities input by the user. It takes in user input as a task and saves it to view later.
 ## **Installation**
-inquirer, jest
+Express
 ## **Technology Stack**
-Node.Js, JavaScript, GitHub, Bootstrap, Command-Line
+Node.Js, JavaScript, GitHub, APIs, Heroku, Command- Line
 ## **Usage**
-
+Enter the task you want to save with a title and description and save it.
 ## **Contributors**
 Garrett Wells Griffey
 ## **Contact**
 #### * Name: Garrett Wells Griffey
 #### * GitHub: "https://github.com/garrettwgriffey" 
-#### * Portfolio: "https://github.com/github.com/garrettwgriffey.github.io
+#### * Portfolio: "https://github.com/garrettwgriffey.github.io
 #### * Email: [garrettwgriffey@gmail.com](garrettwgriffey@gmail.com)
 #### * LinkedIn: https://www.linkedin.com/in/garrettwgriffey
 
@@ -41,5 +41,5 @@ Garrett Wells Griffey
 ##### **License** 
 * MIT
 ## Tests
-###### To Run Tests, Run the Following Command: jest
+###### To Run Tests, Run the Following Command: 
 

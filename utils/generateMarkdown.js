@@ -4,7 +4,7 @@ function generateMD(response) {
 
   <img align="left" src= "https://img.shields.io/badge/License-${response.license}-green">
 
-  <img align="right" width="100" height="100" src="${response.avatar_url}">;
+  <img align="right" width="300" height="300" src="${response.avatar_url}">
 
   
 # **Project** 
